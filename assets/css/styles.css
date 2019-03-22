@@ -1,14 +1,21 @@
 
 /*************************************GENERAL*************************************/
-
+.fb-icon{
+    color: rgb(60,90,153);
+}
 /*************************************HEADER*************************************/
-.header-section{
-    height: 100vh;
-    background-image: url(../images/monkees.jpg);
-    background-attachment: fixed;
-    background-size:cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+/*.header-section{*/
+/*    height: 100vh;*/
+    
+/*    background: url(../images/monkees.jpg);*/
+/*    background-attachment: fixed;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+#dropdown-menu{
+    float: right;
 }
 /*************************************GENERAL*************************************/
 
