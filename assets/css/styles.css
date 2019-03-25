@@ -1,24 +1,134 @@
 
 /*************************************GENERAL*************************************/
+
+h2,h3{
+    font-family: "Baloo Chettan", sans-serif;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    font-size: 30px;
+}
+
+.navbar-default
+.navbar-nav>li>a,
+p , a{
+    font-family: "Baloo Chettan", sans-serif;
+    font-weight: 700;
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+
 .fb-icon{
     color: rgb(60,90,153);
 }
+
+.tw-icon{
+    color: rgb(29,161,242);
+}
+
+.yt-icon{
+    color: rgb(255,0,0);
+}
+
+.general-header{
+    padding:80px;
+}
+
+.block-divider{
+    width:150px;
+    height: 3px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px
+}
+
 /*************************************HEADER*************************************/
-/*.header-section{*/
-/*    height: 100vh;*/
+.navbar{
+    background-color: rgba(0,0,0,0.8);
+    border:none;
+}
+/*.footer-section,*/
+.header-section{
+    height: auto;
     
-/*    background: url(../images/monkees.jpg);*/
-/*    background-attachment: fixed;*/
-/*    background-size: cover;*/
-/*    background-position: center center;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/monkees.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 #dropdown-menu{
     float: right;
+    border-top: none;
+}
+
+.about-section{
+    margin-top: 70px;
+}
+
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron h1{
+    color: rgb(255,255,255);
+    font-family: "Baloo Chettan", sans-serif;
+    font-weight: 700;
+}
+
+.bk-nw-btn{
+    color:rgb(0,0,0);
+}
+
+/*************************************AUDIO*************************************/
+
+.audio-section{
+    height: auto;
+    background-color: rgba(0,0,0,0.8)
+}
+
+.audio-wrapper{
+    text-align: center;
+}
+
+
+audio{
+    margin:20px 10px 50px 10px;
+}
+
+.full-song-link{
+    font-size: 20px;
+    margin:20px 0 100px 0;
+    text-decoration: none;
 }
 /*************************************GENERAL*************************************/
 
-/*************************************GENERAL*************************************/
+.video-section{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6)
+}
+
+
 
 /*************************************GENERAL*************************************/
+
+.full-song-link a:hover{
+    text-decoration: none;
+}
+
+@media (min-width:768px){
+    audio{
+        width:350px;
+    }
+}
+
+
+.footer-section{
+    height: 100vh;
+    
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/monkees.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
