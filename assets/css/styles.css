@@ -90,7 +90,6 @@ tr{
     background-color: rgb(255, 255, 255);
 }
 
-
 .footer-section,
 .header-section {
     height: auto;
@@ -177,6 +176,7 @@ img{
 }
 
 /*************************************FOOTER*************************************/
+
 .table-responsive{
     margin-bottom: 100px;
 }
@@ -200,6 +200,10 @@ img{
 .bk-form-btn,
 .btn{
     margin-top:0;
+}
+
+.form-wrapper{
+    margin-bottom:250px;
 }
 
 /*************************************HOVER/ACTIVE*************************************/
@@ -265,7 +269,10 @@ img{
     video{
     height: 250px;
     width: 350px;
-}
+    }
+    .form-wrapper{
+        margin-bottom:500px;
+    }
 }
 
 @media (min-width:992px){
