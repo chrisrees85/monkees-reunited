@@ -1,134 +1,225 @@
-
 /*************************************GENERAL*************************************/
 
-h2,h3{
+h2,
+h3{
     font-family: "Baloo Chettan", sans-serif;
     font-weight: 700;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
+}
+
+p,
+a {
+    font-family: "Baloo Chettan", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.social-link {
     font-size: 30px;
 }
 
-.navbar-default
-.navbar-nav>li>a,
-p , a{
-    font-family: "Baloo Chettan", sans-serif;
-    font-weight: 700;
-    color: rgb(255,255,255);
-    font-size: 20px;
+.fb-icon {
+    color: rgb(60, 90, 153);
 }
 
-.fb-icon{
-    color: rgb(60,90,153);
+.tw-icon {
+    color: rgb(29, 161, 242);
 }
 
-.tw-icon{
-    color: rgb(29,161,242);
+.yt-icon {
+    color: rgb(255, 0, 0);
 }
 
-.yt-icon{
-    color: rgb(255,0,0);
+.home-sub-header{
+    font-size: 30px;
 }
 
-.general-header{
-    padding:80px;
+.general-header {
+    padding: 80px;
+    font-size: 40px;
 }
 
-.block-divider{
-    width:150px;
+.block-divider {
+    width: 150px;
     height: 3px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px
 }
 
-/*************************************HEADER*************************************/
-.navbar{
-    background-color: rgba(0,0,0,0.8);
-    border:none;
+.btn {
+    margin: 40px 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    height: 50px;
+    line-height: 36px;
+    font-size: 20px;
 }
+
+
+/*************************************HEADER*************************************/
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.89);
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+
 /*.footer-section,*/
-.header-section{
+.header-section {
     height: auto;
-    
-    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/monkees.jpg);
+
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/monkees.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-#dropdown-menu{
+#dropdown-menu {
     float: right;
     border-top: none;
 }
 
-.about-section{
+.about-section {
     margin-top: 70px;
 }
 
-
-.jumbotron{
+.jumbotron {
     background-color: transparent;
 }
 
-.jumbotron h1{
-    color: rgb(255,255,255);
+.jumbotron h1 {
+    color: rgb(255, 255, 255);
     font-family: "Baloo Chettan", sans-serif;
     font-weight: 700;
 }
 
-.bk-nw-btn{
-    color:rgb(0,0,0);
-}
 
-/*************************************AUDIO*************************************/
+/*************************************AUDIO SECTION*************************************/
 
 .audio-section{
     height: auto;
-    background-color: rgba(0,0,0,0.8)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
-.audio-wrapper{
+.audio-wrapper {
     text-align: center;
 }
 
 
-audio{
-    margin:20px 10px 50px 10px;
+audio {
+    margin: 20px 10px 50px 10px;
 }
 
-.full-song-link{
-    font-size: 20px;
-    margin:20px 0 100px 0;
-    text-decoration: none;
-}
-/*************************************GENERAL*************************************/
-
-.video-section{
-    height: 100vh;
-    background-color: rgba(0,0,0,0.6)
-}
-
-
-
-/*************************************GENERAL*************************************/
-
-.full-song-link a:hover{
+.full-song-link {
+    font-size: 30px;
+    margin: 20px 0 50px 0;
     text-decoration: none;
 }
 
-@media (min-width:768px){
-    audio{
-        width:350px;
+/*************************************VIDEO SECTION*************************************/
+
+.video-section {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.video-wrapper{
+    text-align: center;
+    margin-top:20px;
+}
+
+video{
+    height: 200px;
+    width: 300px;
+}
+/*************************************IMAGE SECTION*************************************/
+
+.image-section{
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+/*************************************HOVER/ACTIVE*************************************/
+
+.fb-icon:active {
+    color: rgba(60, 90, 153, 0.5);
+}
+
+.tw-icon:active {
+    color: rgba(29, 161, 242, 0.5);
+}
+
+.yt-icon:active {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: rgba(200, 200, 200, 1);
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-default .navbar-toggle:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.full-song-link a:hover {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.full-song-link a:active {
+    color: rgba(200, 200, 200, 1);
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.9);
+    /*border:3px solid rgb(0,0,0);*/
+    transition-duration: 0.5s;
+}
+
+.hvr-grow.btn.btn-success:active {
+    color: rgb(255, 255, 255);
+    background-color: rgba(200, 200, 200, 1);
+}
+
+@media (min-width:768px) {
+    audio {
+        width: 350px;
     }
+    video{
+    height: 250px;
+    width: 350px;
+}
 }
 
-
-.footer-section{
-    height: 100vh;
-    
-    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/monkees.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@media (min-width:992px){
+        video{
+    height: 350px;
+    width: 450px;
+}
 }
