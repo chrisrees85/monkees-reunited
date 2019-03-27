@@ -90,11 +90,12 @@ tr{
     background-color: rgb(255, 255, 255);
 }
 
+.video-section,
 .footer-section,
 .header-section {
     height: auto;
 
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/monkees.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/monkees.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -145,20 +146,18 @@ audio {
 
 /*************************************VIDEO SECTION*************************************/
 
-.video-section {
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.8)
-}
+/*.video-section {*/
+/*    height: auto;*/
+/*    background-color: rgba(0, 0, 0, 0.8)*/
+/*}*/
 
 .video-wrapper{
+    display: inline-block;
     text-align: center;
     margin-top:40px;
 }
 
-video{
-    height: 200px;
-    width: 300px;
-}
+
 /*************************************IMAGE SECTION*************************************/
 
 .image-section{
@@ -202,8 +201,10 @@ img{
     margin-top:0;
 }
 
-.form-wrapper{
-    margin-bottom:250px;
+.footer-icon-wrapper{
+    /*background-color: rgba(0,0,0,0.6);*/
+    display: inline-block;
+    margin-bottom: 100px;
 }
 
 /*************************************HOVER/ACTIVE*************************************/
@@ -269,9 +270,6 @@ img{
     video{
     height: 250px;
     width: 350px;
-    }
-    .form-wrapper{
-        margin-bottom:500px;
     }
 }
 
