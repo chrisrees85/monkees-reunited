@@ -1,7 +1,7 @@
 /*************************************GENERAL*************************************/
 
 h2,
-h3{
+h3 {
     font-family: "Baloo Chettan", sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -16,15 +16,15 @@ a {
     font-size: 25px;
 }
 
-.table-responsive{
-    background-color: rgba(0,0,0,0.8);
+.table-responsive {
+    background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid;
-    color:rgb(255,255,255);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 th,
-tr{
+tr {
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ tr{
     color: rgb(255, 0, 0);
 }
 
-.home-sub-header{
+.home-sub-header {
     font-size: 30px;
 }
 
@@ -71,8 +71,8 @@ tr{
     font-size: 20px;
 }
 
-.not-available-color{
-    background-color: rgba(255,255,255,0.6)
+.not-available-color {
+    background-color: rgba(255, 255, 255, 0.6)
 }
 
 /*************************************HEADER*************************************/
@@ -124,7 +124,7 @@ tr{
 
 /*************************************AUDIO SECTION*************************************/
 
-.audio-section{
+.audio-section {
     height: auto;
     background-color: rgba(0, 0, 0, 0.6)
 }
@@ -147,61 +147,65 @@ audio {
 /*************************************VIDEO SECTION*************************************/
 
 /*.video-section {*/
+
 /*    height: auto;*/
+
 /*    background-color: rgba(0, 0, 0, 0.8)*/
+
 /*}*/
 
-.video-wrapper{
+.video-wrapper {
     display: inline-block;
     text-align: center;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 
 /*************************************IMAGE SECTION*************************************/
 
-.image-section{
-    height:auto;
+.image-section {
+    height: auto;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 
-img{
-    margin-top:50px;
+img {
+    margin-top: 50px;
 }
 
-.bottom-img-margin{
+.bottom-img-margin {
     margin-bottom: 100px;
 }
 
 /*************************************FOOTER*************************************/
 
-.table-responsive{
+.table-responsive {
     margin-bottom: 100px;
 }
-.cal-header{
+
+.cal-header {
     text-align: center;
 }
 
-.next-month-color{
-    color:rgba(255,255,255,0.4);
+.next-month-color {
+    color: rgba(255, 255, 255, 0.4);
 }
 
-.form-horizontal .form-group{
+.form-horizontal .form-group {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .bk-form-btn{
     float: right;
 }
 
 .bk-form-btn,
-.btn{
-    margin-top:0;
+.btn {
+    margin-top: 0;
+    width:170px;
 }
 
-.footer-icon-wrapper{
+.footer-icon-wrapper {
     /*background-color: rgba(0,0,0,0.6);*/
     display: inline-block;
     margin-bottom: 100px;
@@ -267,15 +271,34 @@ img{
     audio {
         width: 350px;
     }
-    video{
-    height: 250px;
-    width: 350px;
+    video {
+        height: 250px;
+        width: 350px;
+    }
+    .text-uppercase.text-center.general-header{
+        margin-top: 250px;
+    }
+    .text-center.full-song-link{
+        margin-bottom: 220px;
     }
 }
 
-@media (min-width:992px){
-        video{
-    height: 350px;
-    width: 450px;
+@media (min-width:992px) {
+    video {
+        height: 350px;
+        width: 450px;
+    }
 }
+
+@media(min-width:1050px){
+    .jumbotron.text-center{
+        margin-top:30px;
+        margin-bottom: 100px;
+    }
+    .text-uppercase.text-center.general-header{
+        margin-top:270px;
+    }
+    .text-center.full-song-link{
+        margin-bottom: 200px;
+    }
 }
