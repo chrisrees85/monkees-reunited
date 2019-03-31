@@ -133,9 +133,12 @@ The links provided on the website are as follows
   * http://songs-tube.net/artist.php?id=10422
 
 #### About us 
-The about us paragrapgh is taken from The Monkees wikipedia, the openeing sentence reads "The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed."
+The about us paragrapgh is taken from [The Monkees wikipedia page](https://en.wikipedia.org/wiki/The_Monkees), the openeing sentence reads "The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed."
 
 
 I used this and made a slight alteration to the opening line to "Hey Hey We're the Monkees, We are an American Rock and Pop Band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed."
 
 ## Acknowledgements
+* Thank you to my mentor Antonija Simic for the feedback she has given me throughout my project. She has been very helpful in giving me constructive critisism of my work and has given me confidence in my approach to website developement.
+* Thank you to my Wife Amanda who is my biggest critic and "Unofficial Tester" of any websites and projects I work on.
+* Inspiration for my one page with multiple sections design came from the code institute [sample project](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) by Haley Schafer.
