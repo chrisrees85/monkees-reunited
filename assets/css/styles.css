@@ -1,19 +1,17 @@
 /*************************************GENERAL*************************************/
-
-h2,
-h3 {
+body,
+a{
     font-family: "Baloo Chettan", sans-serif;
-    font-weight: 700;
     color: rgb(255, 255, 255);
 }
 
-button,
-p,
-a {
-    font-family: "Baloo Chettan", sans-serif;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+p{
+    font-size: 18px;
+}
+
+.jumbotron .about-font, .about-font{
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
 }
 
 .table-responsive {
@@ -45,19 +43,12 @@ tr {
 }
 
 .home-sub-header {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .general-header {
-    margin: 140px 0 70px 0;
+    padding: 100px 0 70px 0;
     font-size: 40px;
-}
-
-.block-divider {
-    width: 150px;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px
 }
 
 .btn {
@@ -72,7 +63,7 @@ tr {
 }
 
 .not-available-color {
-    background-color: rgba(255, 255, 255, 0.6)
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /*************************************HEADER*************************************/
@@ -95,7 +86,7 @@ tr {
 .header-section {
     height: auto;
 
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/monkees.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/monkees.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -108,7 +99,7 @@ tr {
 }
 
 .about-section {
-    margin-top: 70px;
+    padding-top: 70px;
 }
 
 .jumbotron {
@@ -126,7 +117,7 @@ tr {
 
 .audio-section {
     height: auto;
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .audio-wrapper {
@@ -135,29 +126,22 @@ tr {
 
 
 audio {
-    margin: 20px 10px 50px 10px;
+    padding: 20px 10px 50px 10px;
 }
 
 .full-song-link {
     font-size: 30px;
-    margin: 20px 0 50px 0;
+    padding: 50px 0 50px 0;
     text-decoration: none;
 }
 
 /*************************************VIDEO SECTION*************************************/
 
-/*.video-section {*/
-
-/*    height: auto;*/
-
-/*    background-color: rgba(0, 0, 0, 0.8)*/
-
-/*}*/
 
 .video-wrapper {
     display: inline-block;
     text-align: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -195,14 +179,15 @@ img {
     margin-left: 10px;
     margin-right: 10px;
 }
-.bk-form-btn{
+
+.bk-form-btn {
     float: right;
 }
 
 .bk-form-btn,
 .btn {
     margin-top: 0;
-    width:170px;
+    width: 170px;
 }
 
 .footer-icon-wrapper {
@@ -275,11 +260,11 @@ img {
         height: 250px;
         width: 350px;
     }
-    .text-uppercase.text-center.general-header{
-        margin-top: 250px;
+    .text-uppercase.text-center.general-header {
+        padding-top: 100px;
     }
-    .text-center.full-song-link{
-        margin-bottom: 220px;
+    .text-center.full-song-link {
+        padding-bottom: 50px;
     }
 }
 
@@ -290,15 +275,15 @@ img {
     }
 }
 
-@media(min-width:1050px){
-    .jumbotron.text-center{
-        margin-top:30px;
+@media(min-width:1050px) {
+    .jumbotron.text-center {
+        margin-top: 30px;
         margin-bottom: 100px;
     }
-    .text-uppercase.text-center.general-header{
-        margin-top:270px;
+    .text-uppercase.text-center.general-header {
+        padding-top: 200px;
     }
-    .text-center.full-song-link{
-        margin-bottom: 200px;
+    .text-center.full-song-link {
+        margin-bottom: 100px;
     }
 }

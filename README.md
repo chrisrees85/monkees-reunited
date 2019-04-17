@@ -99,7 +99,7 @@ As I continue the course and learn more I would like to add
 * An HTML [validator](https://www.htmlvalidator.com/) was used to check the code
 * A CSS [checker](https://jigsaw.w3.org/css-validator/) was used to check the stylings
 * Formatting
-  * An HTML [formatter](An HTML formatter was used) was used
+  * An HTML [formatter](https://www.freeformatter.com/html-formatter.html) was used
 
 ## Testing
 For the initial testing I opened the website through the live preview changing the window size in responsive design mode, checking all links worked and that i could navigate 
@@ -115,8 +115,15 @@ This is because the dropdown menu covers the full width of the page and the butt
 To eliminate the confusion on this I changed the background color so the drop down was more defined and should the links be behind the menu it would be obvious to the user why they can't be clicked.
 
 ## Deployment
-To deploy my project I pushed my Cloud9 workspace to my Github repository named monkees-reunited via the command line. This was done each time edits were made to my code and I needed to save them. Please find my [GitHub](https://github.com/chrisrees85) here. To create my GitHub page I built it from the Master branch.
+This website is hosted and deployed from master branch to GitHub Pages.
+How to deploy website on Github Pages.
+- Click on name of repository that you want to deployed.
 
+- On the top bar click on "Settings".
+
+- Scroll down to GitHub Pages and from source drop down list choose "Master branch".
+
+- Create the name for your deployed website and click on "Save" button.
 ## Credits
 #### Content
 All assets where provided by the code institute apart from one video.
