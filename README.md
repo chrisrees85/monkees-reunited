@@ -11,6 +11,8 @@ Following sections give visitors a chance to listen to a select number of songs 
 
 The Website also has an image section so users can see who the band members are and lastly it features a booking request section so potential bookers can contact them easily if they like what they see and hear.
 
+Click the link to be redirected to my Project [Monkees Website](https://chrisrees85.github.io/monkees-reunited/)
+
 ## UX
 
 This Website is aimed at fans, new or existing and venue hosts who wish to book the band for a performance, be it a christmas party, themed night, wedding, prom night.
@@ -27,7 +29,7 @@ There is an image gallery section which provides a small selection of images of 
 
 ## Mockups
 
-[Click Here]() to view a hand drawn mockup of the website
+[Click Here](https://github.com/chrisrees85/monkees-reunited/tree/master/mockups) to view hand drawn mockups of the website
 
 ## Features
 
